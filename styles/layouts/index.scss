@@ -1,0 +1,57 @@
+.unsigned-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  height: 100%;
+  .global {
+    .header {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      .navbar {
+        background-color: $white !important;
+        .title {
+          margin: 0;
+        }
+        padding: 0.5rem;
+        .dropdown {
+          .dropdown-menu {
+            .dropdown-content {
+              .dropdown-item {
+                &:hover {
+                  background-color: $transparent-blue;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .content {
+      padding: 2rem;
+      height: 100%;
+      .page-title {
+        padding-bottom: 1rem;
+        span {
+          padding-left: 8px;
+          font-weight: bold;
+        }
+      }
+      .box {
+        .title-row {
+          background-color: $transparent-blue;
+          border-radius: 4px;
+          margin: 0;
+        }
+        hr {
+          margin: 0;
+          background-color: $grey;
+        }
+      }
+    }
+  }
+}

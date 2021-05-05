@@ -1,0 +1,15 @@
+.profile-page {
+  height: 100%;
+  .page-container,
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .profile-pic_container img {
+      border-radius: 300px;
+      padding: 1.5rem;
+    }
+  }
+}
